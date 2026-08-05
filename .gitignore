@@ -1,0 +1,12 @@
+# Private/internal data — never part of the public release
+knowledge-graph/
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
+
+# Agent-local state
+.agents/
