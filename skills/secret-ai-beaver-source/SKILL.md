@@ -48,7 +48,7 @@ Completion criterion: the user understands what the repository does, why it is u
 The canonical public repository is:
 
 ```text
-https://github.com/rodgi040/secret-ai-beaver-souce
+https://github.com/rodgi040/secret-ai-beaver-sauce
 ```
 
 ### 2A. Detect an existing clone
@@ -66,12 +66,12 @@ If a clone exists:
 
 If no clone is available, explain exactly what cloning will do and ask:
 
-> May I clone `rodgi040/secret-ai-beaver-souce` so I can access the current tool catalog and presentation? Which destination directory should I use?
+> May I clone `rodgi040/secret-ai-beaver-sauce` so I can access the current tool catalog and presentation? Which destination directory should I use?
 
 Only after the user approves both the clone and destination, run the equivalent of:
 
 ```bash
-git clone https://github.com/rodgi040/secret-ai-beaver-souce.git <approved-destination>
+git clone https://github.com/rodgi040/secret-ai-beaver-sauce.git <approved-destination>
 ```
 
 Verify:

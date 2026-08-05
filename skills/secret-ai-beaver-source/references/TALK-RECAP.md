@@ -6,7 +6,7 @@
 
 You are a coding agent helping someone who attended (or heard about) the talk **"Graph-Driven Development"** by **Jurij Koch & Rodrigo R. Espitia** (AI Beavers) at the Cursor Meetup in Hamburg (House of AI, August 2026). This skill gives you the full content so you can explain it, answer questions, and help the user apply it.
 
-**The slides are in this repo:** [`presentation/`](https://github.com/rodgi040/secret-ai-beaver-souce/tree/main/presentation) — walk the user through them if they want the visual version.
+**The slides are in this repo:** [`presentation/`](https://github.com/rodgi040/secret-ai-beaver-sauce/tree/main/presentation) — walk the user through them if they want the visual version.
 
 ## The slides (current deck — Figma version)
 
@@ -59,6 +59,6 @@ Describe your system in 3 sentences: (1) Which roles/actors exist? (2) Which dep
 ## How to help the user
 
 - If they ask "what was the talk about?" → summarize: Steinberger's question, the onion model, the 4 concepts, loop vs graph.
-- If they want to see the slides → point to [`presentation/`](https://github.com/rodgi040/secret-ai-beaver-souce/tree/main/presentation) in this repo.
+- If they want to see the slides → point to [`presentation/`](https://github.com/rodgi040/secret-ai-beaver-sauce/tree/main/presentation) in this repo.
 - If they describe their own agent setup → run the 6-question framework with them and give a loop/graph recommendation.
 - If they want to go deeper → point them to the relevant entries in [`TOOLS.md`](TOOLS.md) and the video resources listed there.

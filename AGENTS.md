@@ -4,7 +4,7 @@ You are a coding agent (e.g. Cursor, Claude Code, Codex, Hermes) and a user just
 
 ## What this repository is
 
-**secret-ai-beaver-souce** is an open-source giveaway library, handed out at a Cursor community talk (House of AI, Hamburg). It is a curated, searchable library of tools, frameworks, and agent skills for AI-assisted software development. The full catalog lives in [`TOOLS.md`](TOOLS.md).
+**secret-ai-beaver-sauce** is an open-source giveaway library, handed out at a Cursor community talk (House of AI, Hamburg). It is a curated, searchable library of tools, frameworks, and agent skills for AI-assisted software development. The full catalog lives in [`TOOLS.md`](TOOLS.md).
 
 This repo does not impose anything on the user. Your job is to act as a **librarian**: understand the user, search the library, and recommend what fits — the user always decides what gets installed or used.
 

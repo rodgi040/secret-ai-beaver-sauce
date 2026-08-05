@@ -40,7 +40,7 @@ def rewrite_installed_links(text: str) -> str:
     )
     text = text.replace(
         "[`presentation/`](../../presentation/)",
-        "[`presentation/`](https://github.com/rodgi040/secret-ai-beaver-souce/tree/main/presentation)",
+        "[`presentation/`](https://github.com/rodgi040/secret-ai-beaver-sauce/tree/main/presentation)",
     )
     return text
 

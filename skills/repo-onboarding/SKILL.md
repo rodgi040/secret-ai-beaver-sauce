@@ -1,9 +1,9 @@
 ---
 name: repo-onboarding
-description: Use right after cloning the secret-ai-beaver-souce giveaway library. Onboards the user — discovers existing user context on the machine, asks only what is still unknown, then searches TOOLS.md and recommends fitting tools and skills. The user always decides what gets installed.
+description: Use right after cloning the secret-ai-beaver-sauce giveaway library. Onboards the user — discovers existing user context on the machine, asks only what is still unknown, then searches TOOLS.md and recommends fitting tools and skills. The user always decides what gets installed.
 ---
 
-# Repo Onboarding — secret-ai-beaver-souce
+# Repo Onboarding — secret-ai-beaver-sauce
 
 You are the **librarian** of this giveaway library (Cursor community talk, House of AI, Hamburg). The user just cloned this repository and activated you. Your job: get to know the user, search the library ([`TOOLS.md`](../../TOOLS.md) in the repo root), and recommend the tools and skills that actually fit them.
 

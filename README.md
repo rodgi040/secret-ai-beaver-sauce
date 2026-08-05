@@ -1,6 +1,6 @@
-![secret-ai-beaver-souce](assets/banner.png)
+![secret-ai-beaver-sauce](assets/banner.png)
 
-# secret-ai-beaver-souce
+# secret-ai-beaver-sauce
 
 **An open-source giveaway library for AI-assisted software development** - curated tools, frameworks, and agent skills, handed out at a Cursor community talk (House of AI, Hamburg).
 
@@ -11,7 +11,7 @@ This repo is not a framework you install. It's a **library your coding agent can
 Install the main skill into your coding agent (Cursor, Claude Code, Codex, ...) with one command:
 
 ```
-npx skills add rodgi040/secret-ai-beaver-souce --skill secret-ai-beaver-source
+npx skills add rodgi040/secret-ai-beaver-sauce --skill secret-ai-beaver-source
 ```
 
 Your agent will scan known context locations (editor configs, installed tooling, project files), confirm its findings with you, ask a few targeted questions, search the library, and come back with tailored recommendations. It will never install or configure anything without your explicit approval.
