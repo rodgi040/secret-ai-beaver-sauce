@@ -2,9 +2,9 @@
 
 > Snapshot bundled with the installable skill. If a verified clone of the canonical repository is available, prefer its root `TOOLS.md` for updates.
 
-# TOOLS.md — The Library
+## TOOLS.md - The Library
 
-The curated catalog of tools, frameworks, and agent skills from the Cursor talk giveaway (House of AI, Hamburg). This file is the single source of truth for the library — agents read it to recommend items; humans read it to browse.
+The curated catalog of tools, frameworks, and agent skills from the Cursor talk giveaway (House of AI, Hamburg). This file is the single source of truth for the library - agents read it to recommend items; humans read it to browse.
 
 **Entry format:**
 
@@ -12,7 +12,7 @@ The curated catalog of tools, frameworks, and agent skills from the Cursor talk 
 ### Name
 - **Repo:** <GitHub URL>
 - **Category:** <category>
-- **What:** <1–2 sentence description>
+- **What:** <1-2 sentence description>
 - **Best for:** <who/when it fits>
 ```
 
@@ -23,8 +23,8 @@ The curated catalog of tools, frameworks, and agent skills from the Cursor talk 
 ### mattpocock/skills
 - **Repo:** https://github.com/mattpocock/skills
 - **Category:** Agent skills collection
-- **What:** "Skills for Real Engineers" — the agent skills Matt Pocock (Total TypeScript) uses daily, straight from his `.agents` directory. Includes `grilling` (interview the user until every decision branch is resolved), `handoff`, `teach`, and `writing-great-skills`. MIT licensed.
-- **Best for:** Anyone who wants battle-tested, production-grade agent skills — and a reference for writing good skills themselves.
+- **What:** "Skills for Real Engineers" - the agent skills Matt Pocock (Total TypeScript) uses daily, straight from his `.agents` directory. Includes `grilling` (interview the user until every decision branch is resolved), `handoff`, `teach`, and `writing-great-skills`. MIT licensed.
+- **Best for:** Anyone who wants battle-tested, production-grade agent skills - and a reference for writing good skills themselves.
 
 ### mattpocock/agent-rules-books
 - **Repo:** https://github.com/mattpocock/agent-rules-books
@@ -47,7 +47,7 @@ The curated catalog of tools, frameworks, and agent skills from the Cursor talk 
 ### DietrichGebert/ponytail
 - **Repo:** https://github.com/DietrichGebert/ponytail
 - **Category:** Agent behavior
-- **What:** Makes your AI agent think like the laziest senior dev in the room — "the best code is the code you never wrote."
+- **What:** Makes your AI agent think like the laziest senior dev in the room - "the best code is the code you never wrote."
 - **Best for:** Anyone whose agent over-engineers; teaches restraint and simplicity.
 
 ---
@@ -57,37 +57,37 @@ The curated catalog of tools, frameworks, and agent skills from the Cursor talk 
 ### mattpocock/sandcastle
 - **Repo:** https://github.com/mattpocock/sandcastle
 - **Category:** Agent orchestration framework
-- **What:** A TypeScript harness to orchestrate sandboxed coding agents — `sandcastle.run()`. A ready-made, adaptable foundation for building your own graph-based software development system: sandboxed execution, host/sandbox hooks, worktree handling, configurable per provider. MIT licensed.
+- **What:** A TypeScript harness to orchestrate sandboxed coding agents - `sandcastle.run()`. A ready-made, adaptable foundation for building your own graph-based software development system: sandboxed execution, host/sandbox hooks, worktree handling, configurable per provider. MIT licensed.
 - **Best for:** Advanced users who want to build their own multi-agent / graph-engineering setup instead of looping a single agent.
 
 ### yc-software/qm
 - **Repo:** https://github.com/yc-software/qm
 - **Category:** Agent harness
-- **What:** Multiplayer agent harness for work — multiple agents (and humans) collaborating on the same tasks.
+- **What:** Multiplayer agent harness for work - multiple agents (and humans) collaborating on the same tasks.
 - **Best for:** Teams running several agents in parallel on shared work.
 
 ### openai/symphony
 - **Repo:** https://github.com/openai/symphony
 - **Category:** Autonomous work management
-- **What:** Turns project work into isolated, autonomous implementation runs — teams manage work instead of supervising coding agents.
+- **What:** Turns project work into isolated, autonomous implementation runs - teams manage work instead of supervising coding agents.
 - **Best for:** Teams that want to delegate whole work packages to agents with clear isolation.
 
 ### herdrdev/herdr
 - **Repo:** https://github.com/herdrdev/herdr
 - **Category:** Agent runtime
-- **What:** "The runtime your coding agents live on" — orchestrates multiple coding agents in parallel panes/worktrees.
+- **What:** "The runtime your coding agents live on" - orchestrates multiple coding agents in parallel panes/worktrees.
 - **Best for:** Power users running several CLI agents (Claude Code, Codex, …) side by side.
 
 ### openai/codex-plugin-cc
 - **Repo:** https://github.com/openai/codex-plugin-cc
 - **Category:** Agent-to-agent plugin
-- **What:** Use Codex from Claude Code to review code or delegate tasks — one agent calling another.
+- **What:** Use Codex from Claude Code to review code or delegate tasks - one agent calling another.
 - **Best for:** Claude Code users who want a second opinion or delegated subtasks from Codex.
 
 ### open-gsd/gsd-core
 - **Repo:** https://github.com/open-gsd/gsd-core
 - **Category:** Shipping workflow
-- **What:** "Git. Ship. Done." — core tooling for a streamlined commit-to-ship workflow.
+- **What:** "Git. Ship. Done." - core tooling for a streamlined commit-to-ship workflow.
 - **Best for:** Developers who want a ruthlessly simple ship-it pipeline.
 
 ---
@@ -97,13 +97,13 @@ The curated catalog of tools, frameworks, and agent skills from the Cursor talk 
 ### browser-use/browsercode
 - **Repo:** https://github.com/browser-use/browsercode
 - **Category:** Browser agent framework
-- **What:** The browser-native agent framework — agents that operate directly in/on the browser.
+- **What:** The browser-native agent framework - agents that operate directly in/on the browser.
 - **Best for:** Builders whose agents need to see and drive real web pages.
 
 ### HKUDS/CLI-Anything
 - **Repo:** https://github.com/HKUDS/CLI-Anything
 - **Category:** Agent-native tooling
-- **What:** "Making ALL Software Agent-Native" — turns arbitrary software into CLI-controllable, agent-friendly tools (CLI-Hub: clianything.cc).
+- **What:** "Making ALL Software Agent-Native" - turns arbitrary software into CLI-controllable, agent-friendly tools (CLI-Hub: clianything.cc).
 - **Best for:** Anyone who wants their agent to control software that was never designed for agents.
 
 ---
@@ -113,7 +113,7 @@ The curated catalog of tools, frameworks, and agent skills from the Cursor talk 
 ### agentscope-ai/ReMe
 - **Repo:** https://github.com/agentscope-ai/ReMe
 - **Category:** Agent memory
-- **What:** Memory Management Kit for agents — "Remember Me, Refine Me." Gives agents durable, searchable long-term memory.
+- **What:** Memory Management Kit for agents - "Remember Me, Refine Me." Gives agents durable, searchable long-term memory.
 - **Best for:** Anyone whose agent keeps forgetting context between sessions.
 
 ---
@@ -130,7 +130,7 @@ The curated catalog of tools, frameworks, and agent skills from the Cursor talk 
 - **Repo:** https://github.com/limehq/munkel
 - **Category:** Desktop utility (macOS)
 - **What:** Ephemeral Mac messages in the notch, with a Cloudflare relay and CLI.
-- **Best for:** Mac users who like quick, ephemeral notifications — scriptable from agents and CLIs.
+- **Best for:** Mac users who like quick, ephemeral notifications - scriptable from agents and CLIs.
 
 ---
 
@@ -139,8 +139,8 @@ The curated catalog of tools, frameworks, and agent skills from the Cursor talk 
 ### AI Engineer (YouTube)
 - **Link:** https://www.youtube.com/@aiDotEngineer
 - **Category:** Video learning
-- **What:** The AI Engineer channel — excellent expert talks and real live demos from practitioners building with AI agents, LLMs, and tooling.
-- **Best for:** Anyone who wants to learn from real experts and see tools in action before installing anything — watch first, decide after.
+- **What:** The AI Engineer channel - excellent expert talks and real live demos from practitioners building with AI agents, LLMs, and tooling.
+- **Best for:** Anyone who wants to learn from real experts and see tools in action before installing anything - watch first, decide after.
 
 ---
 
@@ -149,7 +149,7 @@ The curated catalog of tools, frameworks, and agent skills from the Cursor talk 
 ### sindresorhus/awesome
 - **Repo:** https://github.com/sindresorhus/awesome
 - **Category:** Meta-list
-- **What:** The awesome list of awesome lists — the entry point to curated lists on virtually every dev topic.
+- **What:** The awesome list of awesome lists - the entry point to curated lists on virtually every dev topic.
 - **Best for:** Everyone. When in doubt, start here.
 
 ---
@@ -160,7 +160,7 @@ The curated catalog of tools, frameworks, and agent skills from the Cursor talk 
 - **Repo:** https://github.com/ai-beavers/beaver-buddy
 - **Category:** Community project
 - **What:** Community project from the AI Beavers orbit.
-- **Best for:** Community members — check it out and contribute.
+- **Best for:** Community members - check it out and contribute.
 
 ---
 

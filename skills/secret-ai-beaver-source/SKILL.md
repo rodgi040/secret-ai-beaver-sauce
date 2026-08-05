@@ -1,6 +1,6 @@
 ---
 name: secret-ai-beaver-source
-description: Use after discovering the AI Beaver giveaway or when choosing AI coding tools. Explains the repository, obtains permission to clone it, discovers user context read-only, and recommends fitting tools without installing anything automatically.
+description: Use when the user discovers the AI Beaver giveaway or wants to choose AI coding tools. Explains the repository, obtains permission to clone it, discovers user context read-only, and recommends fitting tools without installing anything automatically.
 license: MIT
 metadata:
   author: AI Beavers
@@ -24,6 +24,12 @@ The full repository contains:
 
 This installed skill includes self-contained snapshots in [`references/TOOLS.md`](references/TOOLS.md) and [`references/TALK-RECAP.md`](references/TALK-RECAP.md). It can therefore help immediately, even before the full repository is cloned.
 
+## When NOT to use this skill
+
+- The user asks you to install or set up a specific tool right away - skip the onboarding flow and go straight to Phase 7.
+- The user wants general coding help or code generation - this skill is about choosing tools from this library, not about writing code.
+- The user asks for a security audit, credential review, or anything that would inspect secret-bearing locations - decline, per safety rule 4.
+
 ## Non-negotiable safety rules
 
 1. **The user decides.** Recommend; do not impose.
@@ -33,7 +39,7 @@ This installed skill includes self-contained snapshots in [`references/TOOLS.md`
 5. Before suggesting any third-party project, tell the user to review its repository, license, maintenance state, and security implications.
 6. If a fact is not in the bundled references or the cloned repository, label it as unverified rather than inventing it.
 
-## Phase 1 — Explain the repository before doing anything
+## Phase 1 - Explain the repository before doing anything
 
 Start with a concise explanation:
 
@@ -43,7 +49,7 @@ Then tell the user that this skill already contains a bundled catalog, while clo
 
 Completion criterion: the user understands what the repository does, why it is useful, and that cloning is optional and requires approval.
 
-## Phase 2 — Obtain access to the full repository
+## Phase 2 - Obtain access to the full repository
 
 The canonical public repository is:
 
@@ -53,7 +59,7 @@ https://github.com/rodgi040/secret-ai-beaver-sauce
 
 ### 2A. Detect an existing clone
 
-Read-only checks are allowed inside the current project. Look for a directory whose Git remote is the canonical URL. Do not search the entire machine without permission.
+Read-only checks are allowed inside the current project. Look for a directory whose Git remote is the canonical URL (e.g. a directory named `secret-ai-beaver-sauce`, `giveaway-test-repo`, or similar in the current project or user home). Do not search the entire machine without permission.
 
 If a clone exists:
 
@@ -85,7 +91,7 @@ If cloning fails or the repository is unavailable, continue with the bundled ref
 
 Completion criterion: either a verified clone is available or the agent has explicitly switched to the bundled references.
 
-## Phase 3 — Discover existing user context
+## Phase 3 - Discover existing user context
 
 Do not interrogate the user about information that can be found safely. First ask permission for a read-only scan outside the current project. State which locations and commands you intend to inspect.
 
@@ -104,11 +110,11 @@ Inspect only approved locations, in this order:
 
 Never inspect `.env`, credential files, keychains, browser data, SSH keys, cloud credentials, or authentication databases.
 
-Summarize findings in 3–5 bullets and ask the user to confirm or correct them.
+Summarize findings in 3-5 bullets and ask the user to confirm or correct them.
 
 Completion criterion: the user has confirmed a concise setup profile or corrected the findings.
 
-## Phase 4 — Ask only what remains unknown
+## Phase 4 - Ask only what remains unknown
 
 Ask targeted questions, preferably in one short batch:
 
@@ -122,7 +128,7 @@ Skip questions already answered by the context scan. Adapt depth to the user: be
 
 Completion criterion: stack, experience, current workflow, pain points, and desired outcome are sufficiently clear to make specific recommendations.
 
-## Phase 5 — Search the library
+## Phase 5 - Search the library
 
 Use the cloned repository's `TOOLS.md` when a verified clone is available. Otherwise read [`references/TOOLS.md`](references/TOOLS.md).
 
@@ -137,9 +143,9 @@ Match candidates against:
 
 Do not recommend an item merely because it is popular. Prefer relevance over stars.
 
-## Phase 6 — Recommend, do not install
+## Phase 6 - Recommend, do not install
 
-Return 3–7 prioritized items:
+Return 3-7 prioritized items:
 
 ### Start here
 The strongest one or two matches.
@@ -163,7 +169,7 @@ End by asking which item, if any, the user wants to investigate.
 
 Completion criterion: recommendations are individualized, traceable to the catalog, and no installation has occurred.
 
-## Phase 7 — Act only on the user's choice
+## Phase 7 - Act only on the user's choice
 
 After the user selects an item:
 

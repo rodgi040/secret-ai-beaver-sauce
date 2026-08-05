@@ -1,4 +1,4 @@
-# Private/internal data — never part of the public release
+# Private/internal data - never part of the public release
 knowledge-graph/
 
 # OS / editor noise
@@ -10,3 +10,8 @@ Thumbs.db
 
 # Agent-local state
 .agents/
+
+# Secrets / credentials (defense in depth)
+.env*
+*.key
+*.pem

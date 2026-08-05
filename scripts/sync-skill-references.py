@@ -53,6 +53,10 @@ def main() -> None:
         (ROOT / "skills" / "talk-recap" / "SKILL.md").read_text(encoding="utf-8")
     )
 
+    # Lower the source's own H1 to H2 so the bundled file has exactly one H1.
+    tools = re.sub(r"^# ", "## ", tools, count=1, flags=re.MULTILINE)
+    talk = re.sub(r"^# ", "## ", talk, count=1, flags=re.MULTILINE)
+
     tools_footer = (
         "*More entries are added continuously. If you're an agent: treat this file "
         "as the bundled snapshot; prefer the cloned repository's root `TOOLS.md` "

@@ -14,7 +14,7 @@ Install the main skill into your coding agent (Cursor, Claude Code, Codex, ...) 
 npx skills add rodgi040/secret-ai-beaver-sauce --skill secret-ai-beaver-source
 ```
 
-Your agent will scan known context locations (editor configs, installed tooling, project files), confirm its findings with you, ask a few targeted questions, search the library, and come back with tailored recommendations. It will never install or configure anything without your explicit approval.
+Your agent will ask your permission, then scan known context locations read-only (editor configs, installed tooling, project files), confirm its findings with you, ask a few targeted questions, search the library, and come back with tailored recommendations. It will never install or configure anything without your explicit approval.
 
 Prefer a specific agent? Add `--agent <name>` (e.g. `--agent cursor`). Want it available everywhere? Add `--global`.
 
@@ -35,6 +35,7 @@ and skills that fit me. Don't install anything without asking me.
 | [`AGENTS.md`](AGENTS.md) | The onboarding guide every agent reads first - context, interview flow, recommendation rules |
 | [`TOOLS.md`](TOOLS.md) | The library: curated tools, frameworks & skills with GitHub links and "best for" hints |
 | [`skills/secret-ai-beaver-source/`](skills/secret-ai-beaver-source/SKILL.md) | The installable main skill: explains the repo, then onboards you and recommends fitting tools |
+| [`skills/repo-onboarding/`](skills/repo-onboarding/SKILL.md) | The repo-native onboarding flow agents follow after cloning (same steps, no install needed) |
 | [`skills/talk-recap/`](skills/talk-recap/SKILL.md) | Explains the talk's content (Graph-Driven Development) - so your agent can recap it and help you apply it |
 | [`presentation/`](presentation/) | The talk slides as images - browse them anytime |
 | [`assets/`](assets/) | Repo artwork |
