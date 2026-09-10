@@ -59,11 +59,11 @@ Describe your system in 3 sentences: (1) Which roles/actors exist? (2) Which dep
 - Don't graph-ify everything - most tasks are loops, and that's fine.
 - When you do need a graph: make topology **explicit** (nodes, edges, gates), not implicit in a mega-prompt.
 - The maturity path: Prompt -> Skill -> Loop -> Graph, all on a solid harness.
-- The tools to build this are in [`TOOLS.md`](https://github.com/rodgi040/secret-ai-beaver-sauce/blob/main/TOOLS.md) - notably **sandcastle**, **herdr**, **symphony**, and **qm** for orchestration; **mattpocock/skills** and **agent-rules-books** for the skills layer.
+- The tools to build this are in [`TOOLS.md`](https://github.com/rodgi040/secret-ai-beaver-sauce/blob/main/TOOLS.md) - notably **sandcastle**, **herdr**, **symphony**, and **qm** for orchestration; **LangGraph** and **Deep Agents** for building explicit graphs; **mattpocock/skills** and **agent-rules-books** for the skills layer.
 
 ## How to help the user
 
 - If they ask "what was the talk about?" -> summarize: Steinberger's question, the onion model, the 4 concepts, loop vs graph.
-- If they want to see the slides -> point to [`presentation/`](https://github.com/rodgi040/secret-ai-beaver-sauce/tree/main/presentation) in this repo.
+- If they want to see the slides -> point to [`presentation/`](https://github.com/rodgi040/secret-ai-beaver-sauce/tree/main/presentation) in this repo; to download them, use the `presentation-slides` skill.
 - If they describe their own agent setup -> run the 6-question framework with them and give a loop/graph recommendation.
 - If they want to go deeper -> point them to the relevant entries in [`TOOLS.md`](https://github.com/rodgi040/secret-ai-beaver-sauce/blob/main/TOOLS.md) and the video resources listed there.

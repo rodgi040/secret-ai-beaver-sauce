@@ -17,7 +17,7 @@ The repository exists to solve a practical problem: the AI tooling ecosystem is 
 
 The full repository contains:
 
-- a curated library of AI coding tools, agent skills, harnesses, orchestration systems, memory tools, and learning resources;
+- a curated library of AI coding tools, agent skills, harnesses, orchestration systems, personal agents, memory tools, observability and hosting, AI models, code-to-video tools, and learning resources;
 - the Graph-Driven Development talk recap and presentation slides;
 - onboarding instructions that help an agent discover context before asking repetitive questions;
 - source links and "best for" guidance so the user can review every recommendation.
