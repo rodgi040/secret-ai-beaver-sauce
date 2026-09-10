@@ -18,6 +18,12 @@ Your agent will ask your permission, then scan known context locations read-only
 
 Prefer a specific agent? Add `--agent <name>` (e.g. `--agent cursor`). Want it available everywhere? Add `--global`.
 
+Only want the talk slides? Install the separate slides skill (the full presentations will be submitted within the next 24 hours - until then it serves the 5-slide preview):
+
+```
+npx skills add rodgi040/secret-ai-beaver-sauce --skill presentation-slides
+```
+
 Alternatively, clone the repo (or just open it in your editor) and paste this command into your coding agent:
 
 ```
@@ -37,6 +43,8 @@ and skills that fit me. Don't install anything without asking me.
 | [`skills/secret-ai-beaver-source/`](skills/secret-ai-beaver-source/SKILL.md) | The installable main skill: explains the repo, then onboards you and recommends fitting tools |
 | [`skills/repo-onboarding/`](skills/repo-onboarding/SKILL.md) | The repo-native onboarding flow agents follow after cloning (same steps, no install needed) |
 | [`skills/talk-recap/`](skills/talk-recap/SKILL.md) | Explains the talk's content (Graph-Driven Development) - so your agent can recap it and help you apply it |
+| [`skills/presentation-slides/`](skills/presentation-slides/SKILL.md) | Downloads the talk slides and walks you through their content - **note: the full presentations will be submitted within the next 24 hours** (until then: 5-slide preview) |
+| [`skills/herdr/`](skills/herdr/SKILL.md) | The official herdr agent skill (source: `herdrdev/herdr`, Apache-2.0), bundled verbatim - teaches an agent to control Herdr from inside a Herdr pane |
 | [`presentation/`](presentation/) | The talk slides as images - browse them anytime |
 | [`assets/`](assets/) | Repo artwork |
 

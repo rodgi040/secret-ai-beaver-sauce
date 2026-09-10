@@ -45,6 +45,15 @@ def rewrite_installed_links(text: str) -> str:
     return text
 
 
+def rewrite_catalog_links(text: str) -> str:
+    """Point repo-relative `skills/...` links at GitHub - the bundled catalog has no skills/ dir."""
+    return re.sub(
+        r"\]\((skills/[^)]+)\)",
+        r"](https://github.com/rodgi040/secret-ai-beaver-sauce/blob/main/\1)",
+        text,
+    )
+
+
 def main() -> None:
     REFS.mkdir(parents=True, exist_ok=True)
 
@@ -68,7 +77,7 @@ def main() -> None:
         "# Bundled Tool Catalog\n\n"
         "> Snapshot bundled with the installable skill. If a verified clone of the "
         "canonical repository is available, prefer its root `TOOLS.md` for updates.\n\n"
-        + tools,
+        + rewrite_catalog_links(tools),
         encoding="utf-8",
     )
     (REFS / "TALK-RECAP.md").write_text(
